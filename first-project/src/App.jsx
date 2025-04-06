@@ -1,9 +1,13 @@
-import Navbar from "./components/Navbar"
 
 const App = () => {
+
+  let x  = "Kauhsik Mandal"
+  let array = ["user1", "user2", "user3", "user4"];
+
   return (
     <div>
-      <Navbar/>
+      {x}
+      {array.map((user) => {return <h2>{user}</h2>})}
     </div>
   )
 }
