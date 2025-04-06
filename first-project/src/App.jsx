@@ -1,8 +1,13 @@
+
 const App = () => {
-  let data = "boy";
+
+  const btnClick = () => {
+    console.log("Button clicked");
+  }
+
   return (
     <div>
-      {data === "boy" ? <h1>Boy</h1> : <h1>Girl</h1>}
+      <button onClick={() => {btnClick()}}>Click me</button>
     </div>
   );
 };
