@@ -11,3 +11,11 @@
     padding-bottom: 30px;
     margin-bottom: 100px;
 }
+
+.todo-header{
+    margin-top: 84px;
+    color: #002765;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 34px;
+}
