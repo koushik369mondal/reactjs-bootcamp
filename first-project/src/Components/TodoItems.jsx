@@ -5,13 +5,13 @@ import cross from "./Assets/cross.png";
 
 const TodoItems = ({no, display, text}) => {
     return (
-        <div className="todoitems">
-            <div className="todoitems-container">
+        <div className="todo-items">
+            <div className="todo-items-container">
                 <img src={not_tick} alt="" />
                 <img src={tick} alt="" />
-                <div className="todoitems-text">{text}</div>
+                <div className="todo-items-text">{text}</div>
             </div>
-            <img src={cross} alt="" />
+            <img className="todo-items-cross-icon" src={cross} alt="" />
         </div>
     );
 };
